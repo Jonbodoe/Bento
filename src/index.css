@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a:hover{
+ text-decoration: none;
+}
+
+.icon-logo {
+  font-size: 10rem;
+}
+
+:root {
+  --twitch: #8554f6;
+  --twitter: #48a1eb;
+  --youtube: #eb3223;
+}
+
+.twitch:hover {
+  color: var(--twitch);
+  transition: all 0.4s;
+  
+}
+.twitter:hover {
+  color: var(--twitter);
+  transition: all 0.4s;
+}
+.youtube:hover {
+  color: var(--youtube);
+  transition: all 0.4s;
+}
+
+/* color: #8554f6 */
