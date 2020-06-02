@@ -24,17 +24,16 @@ a:hover{
   --twitter: #48a1eb;
   --youtube: #eb3223;
 }
-
-.twitch:hover {
+.widget:hover .twitch {
   color: var(--twitch);
   transition: all 0.4s;
   
 }
-.twitter:hover {
+.widget:hover .twitter {
   color: var(--twitter);
   transition: all 0.4s;
 }
-.youtube:hover {
+.widget:hover .youtube {
   color: var(--youtube);
   transition: all 0.4s;
 }

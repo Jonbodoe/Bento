@@ -1,55 +1,23 @@
 {
   "name": "bento",
-  "version": "0.1.0",
-  "description": "widget window for dom d.",
-  "author": "jonbodoe",
-  "build": {
-    "appId": "bento.widget",
-    "win": {
-      "icon": "build/Bento.png"
-    }
-  },
-  "homepage": "./",
-  "main": "public/electron.js",
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "cross-env": "^7.0.2",
-    "electron-is-dev": "^1.2.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "react-start": "react-scripts start",
-    "react-build": "react-scripts build",
-    "react-test": "react-scripts test",
-    "react-eject": "react-scripts eject",
-    "electron-build": "electron-builder",
-    "build": "npm run react-build && npm run electron-build",
-    "start": "concurrently \"cross-env BROWSER=none npm run react-start \"\"wait-on http://localhost:3000 && electron .\""
+    "dev": "concurrently \"cd Backend && npm run dev\" \"cd Frontend && npm start\" "
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonbodoe/Bento.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonbodoe/Bento/issues"
   },
+  "homepage": "https://github.com/Jonbodoe/Bento#readme",
   "devDependencies": {
-    "concurrently": "^5.2.0",
-    "electron": "^9.0.0",
-    "electron-builder": "^22.6.1",
-    "wait-on": "^5.0.0"
-  }
+    "concurrently": "^5.2.0"
+  },
+  "dependencies": {}
 }
