@@ -6,6 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.bg-dark, .bg-light {
+  transition: 0.2s all;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  margin: 0;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -24,6 +31,15 @@ a:hover{
   --twitter: #48a1eb;
   --youtube: #eb3223;
 }
+.text-twitch{
+  color: var(--twitch);
+}
+.text-twitter{
+  color: var(--twitter);
+}
+.text-youtube{
+  color: var(--youtube);
+}
 .widget:hover .twitch {
   color: var(--twitch);
   transition: all 0.4s;
@@ -37,5 +53,6 @@ a:hover{
   color: var(--youtube);
   transition: all 0.4s;
 }
+
 
 /* color: #8554f6 */
