@@ -7,8 +7,6 @@ import {
   } from "react-router-dom";
 import WidgetData from '../Data/WidgetData';
 
-
-
 const MediaWidgets = () => {
     const dataList = WidgetData
     const widgets = dataList.map((data, i) => (             

@@ -54,5 +54,7 @@ a:hover{
   transition: all 0.4s;
 }
 
-
+.no-text-margin {
+  margin: 0;
+}
 /* color: #8554f6 */

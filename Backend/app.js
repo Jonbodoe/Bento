@@ -15,7 +15,6 @@ app.get('/Twitter', function (req, res) {
   res.send('Twitter')
 })
 app.use('/Twitch', require('./Routes/Twitch/TwitchApi'))
-// Routes to Twitch APIs
 
 app.get('/Youtube', function (req, res) {
   res.send('Youtube')
