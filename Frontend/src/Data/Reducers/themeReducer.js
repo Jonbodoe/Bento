@@ -14,7 +14,7 @@ const ThemeReducer = (state, action) => {
           return {
             themeMode: 'light',
             BgPrimaryClass: 'light',
-            BgecondaryClass: 'white',
+            BgSecondaryClass: 'white',
             TextPrimaryClass: 'dark',
             TextSecondaryClass: 'secondary'
           };
@@ -24,3 +24,4 @@ const ThemeReducer = (state, action) => {
 }
 
 export default ThemeReducer;
+

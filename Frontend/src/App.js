@@ -7,7 +7,7 @@ import {
   // withRouter,
   // Link
 } from "react-router-dom";
-import Navigation from './Components/Navigation';
+// import Navigation from './Components/Navigation';
 import MediaWidgets from './Components/MediaWidgets';
 import IndexPage from './Pages/IndexPage';
 import Youtube from './Pages/Youtube';
@@ -38,17 +38,17 @@ function App() {
 
         </Route>
         <Route path="/twitter">
-          <Navigation title="Twitter" />
+          {/* <Navigation title="Twitter" /> */}
           <Twitter />
         </Route>
         <Route path="/twitch">
           {/* <div> */}
-          <Navigation title="Twitch"/>
+          {/* <Navigation title="Twitch"/> */}
           <Twitch />
           {/* </div>s */}
         </Route>
         <Route path="/youtube">
-          <Navigation title="Youtube" />
+          {/* <Navigation title="Youtube" /> */}
           <Youtube />
         </Route>
       </Switch>
